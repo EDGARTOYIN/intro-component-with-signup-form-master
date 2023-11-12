@@ -18,7 +18,7 @@
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   </head>
   <body
-    class="font-default-ff bg-custom relative px-5 py-16 text-center text-white md:grid md:min-h-screen md:place-content-center lg:px-0 lg:py-0"
+    class="bg-custom relative px-5 py-16 text-center font-default-ff text-white md:grid md:min-h-screen md:place-content-center lg:px-0 lg:py-0"
   >
     <div
       class="max-w-[40rem] items-center lg:mx-8 lg:grid lg:max-w-[80rem] lg:grid-cols-2"
@@ -35,7 +35,7 @@
       </section>
       <section class="mx-auto mt-12 w-full max-w-[35rem] lg:mt-0">
         <div
-          class="bg-blue-custom shadow-custom rounded-lg py-5 lg:flex lg:justify-center lg:gap-1"
+          class="shadow-custom rounded-lg bg-blue-custom py-5 lg:flex lg:justify-center lg:gap-1"
         >
           <p class="font-semibold">Try it free 7 days then</p>
           <p class="text-grayish-blue">$20/mo. thereafter</p>
@@ -48,7 +48,7 @@
           >
             <div class="formGroup relative flex flex-col">
               <input
-                class="focus:border-blue-custom text-dark-blue block w-full border px-6 py-4 font-semibold outline-none"
+                class="block w-full border px-6 py-4 font-semibold text-dark-blue outline-none focus:border-blue-custom"
                 id="user-name"
                 required
                 placeholder="First Name"
@@ -59,13 +59,13 @@
                 alt=""
               />
               <p
-                class="text-red-custom error hidden pt-2 text-right text-xs italic"
+                class="error hidden pt-2 text-right text-xs italic text-red-custom"
               ></p>
             </div>
             <div class="formGroup relative flex flex-col">
               <input
                 required
-                class="focus:border-blue-custom text-dark-blue block w-full border px-6 py-4 font-semibold outline-none"
+                class="block w-full border px-6 py-4 font-semibold text-dark-blue outline-none focus:border-blue-custom"
                 id="user-last-name"
                 placeholder="Last Name"
               />
@@ -75,13 +75,13 @@
                 alt=""
               />
               <p
-                class="text-red-custom error hidden pt-2 text-right text-xs italic"
+                class="error hidden pt-2 text-right text-xs italic text-red-custom"
               ></p>
             </div>
             <div class="formGroup relative flex flex-col">
               <input
                 required
-                class="focus:border-blue-custom text-dark-blue block w-full border px-6 py-4 font-semibold outline-none"
+                class="block w-full border px-6 py-4 font-semibold text-dark-blue outline-none focus:border-blue-custom"
                 id="user-email"
                 type="email"
                 placeholder="Email Address"
@@ -92,13 +92,13 @@
                 alt=""
               />
               <p
-                class="text-red-custom error hidden pt-2 text-right text-xs italic"
+                class="error hidden pt-2 text-right text-xs italic text-red-custom"
               ></p>
             </div>
             <div class="formGroup relative flex flex-col">
               <input
                 required
-                class="focus:border-blue-custom text-dark-blue block w-full border px-6 py-4 font-semibold outline-none"
+                class="block w-full border px-6 py-4 font-semibold text-dark-blue outline-none focus:border-blue-custom"
                 id="password"
                 type="password"
                 placeholder="Password"
@@ -109,18 +109,18 @@
                 alt=""
               />
               <p
-                class="text-red-custom error hidden pt-2 text-right text-xs italic"
+                class="error hidden pt-2 text-right text-xs italic text-red-custom"
               ></p>
             </div>
             <button
               type="submit"
-              class="bg-green-custom hover:bg-green-hover rounded-lg py-4 font-medium uppercase text-white shadow-md transition-all"
+              class="rounded-lg bg-green-custom py-4 font-medium uppercase text-white shadow-md transition-all hover:bg-green-hover"
             >
               Claim your free trial
             </button>
-            <p class="text-grayish-blue text-center text-xs">
+            <p class="text-center text-xs text-grayish-blue">
               By clicking the button, you are agreeing to our
-              <a class="text-red-custom cursor-pointer font-semibold"
+              <a class="cursor-pointer font-semibold text-red-custom"
                 >Terms and Services</a
               >
             </p>
@@ -128,6 +128,6 @@
         </div>
       </section>
     </div>
-    <script src="index.js"></script>
+    <script src="./index.js"></script>
   </body>
 </html>
