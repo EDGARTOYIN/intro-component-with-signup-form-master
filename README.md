@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [REPO](https://github.com/EDGARTOYIN/four-card-feature-section-master)
-- Live Site URL: [SITE](https://edgartoyin.github.io/four-card-feature-section-master/)
+- Solution URL: [REPO](https://github.com/EDGARTOYIN/intro-component-with-signup-form-master)
+- Live Site URL: [SITE](https://edgartoyin.github.io/intro-component-with-signup-form-master/)
 
 ## My process
 
